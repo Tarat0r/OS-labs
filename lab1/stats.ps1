@@ -1,0 +1,1 @@
+while($true){(Get-Process).Count | Out-File '.\Desktop\log.txt' -Append}
